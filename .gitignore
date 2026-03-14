@@ -1,0 +1,62 @@
+# ─── Dependencies ─────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+
+# ─── Environment variables ────────────────────────────────────
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ─── Build outputs ────────────────────────────────────────────
+dist/
+build/
+.next/
+out/
+
+# ─── Uploaded files (local dev only — served from Cloudinary in prod) ──
+server/src/uploads/posters/
+server/src/uploads/tickets/
+
+# ─── Logs ─────────────────────────────────────────────────────
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ─── OS files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ─── Editor / IDE ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+
+# ─── Vite / React ─────────────────────────────────────────────
+client/dist/
+client/.vite/
+
+# ─── Testing ──────────────────────────────────────────────────
+coverage/
+.nyc_output/
+
+# ─── Misc ─────────────────────────────────────────────────────
+*.tgz
+*.zip
+.cache/
